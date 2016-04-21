@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8">
+    <title>Microsoftedge-documentation by jasonnian1978</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
+  </head>
+  <body>
+    <section class="page-header">
+      <h1 class="project-name">Microsoftedge-documentation</h1>
+      <h2 class="project-tagline">Microsoft Edge documentation</h2>
+      <a href="https://github.com/jasonnian1978/MicrosoftEdge-Documentation" class="btn">View on GitHub</a>
+      <a href="https://github.com/jasonnian1978/MicrosoftEdge-Documentation/zipball/master" class="btn">Download .zip</a>
+      <a href="https://github.com/jasonnian1978/MicrosoftEdge-Documentation/tarball/master" class="btn">Download .tar.gz</a>
+    </section>
+
+    <section class="main-content">
+      <h1>
+<a id="microsoft-edge-documentation" class="anchor" href="#microsoft-edge-documentation" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Microsoft Edge documentation</h1>
+
+<p>This is the repository for Microsoft Edge <strong>documentation</strong> hosted at <a href="https://dev.windows.com/en-us/microsoft-edge/platform/documentation/">https://dev.windows.com/en-us/microsoft-edge/platform/documentation/</a>.</p>
+
+<p>Over the coming months, we will add new sections and content to enhance the documentation experience. If you would like to see new coverage or have feedback, please consider <a href="/CONTRIBUTING.md"><strong>contributing</strong></a>.  You can edit the existing content, add new content, or simply create new <a href="https://github.com/MicrosoftEdge/MicrosoftEdge-Documentation/issues">issues</a>. We’ll take a look at your suggestions and will work together to incorporate them into the docs. </p>
+
+<p>Find the data for the <a href="https://dev.windows.com/en-us/microsoft-edge/platform/status/"><code>Status</code></a> page at: <a href="https://github.com/MicrosoftEdge/Status">https://github.com/MicrosoftEdge/Status</a>. The <code>Status</code> page provides the latest implementation status and future plans for web platform features in Microsoft Edge.</p>
+
+<h1>
+<a id="conventions" class="anchor" href="#conventions" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Conventions</h1>
+
+<ul>
+<li>Docs are grouped by folders (the structure parallels the information architecture (IA) on the site)</li>
+<li>A folder can contain more folders or a <code>readme.md</code>
+</li>
+<li>One <code>.md</code> file per folder</li>
+<li>Folder/directory names are dash-separated (e.g., <code>f12-tools</code>) and lowercase. They are used in URLs on the Microsoft Edge Dev site. Don't use underscores or PascalCase/camelCase.</li>
+<li>Relative links are formatted with only the folder name of the referenced readme doc. E.g.,   <code>../perfomance/</code>  (not <code>../perfomance/readme.md</code>)</li>
+<li>Section headers require a space after hashes, formatted as  <code>## Section Heading</code> <em>(not <code>##Section Heading</code>)</em>. Otherwise, the markdown doesn't parse correctly into the site.</li>
+</ul>
+
+<h1>
+<a id="styling" class="anchor" href="#styling" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Styling</h1>
+
+<p>The following sections provide an overview of common element styles used in the developer portal site.</p>
+
+<h2>
+<a id="header-elements" class="anchor" href="#header-elements" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Header elements</h2>
+
+<p>Only the <code>h3</code> and the <code>h4</code> elements have a faint separator line underneath them. <code>h1</code> (use for main title only) and <code>h2</code> are simply larger text.</p>
+
+<h3>
+<a id="subsection-header" class="anchor" href="#subsection-header" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Subsection header</h3>
+
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+
+<h4>
+<a id="an-h4-tag-provides-better-visual-hierarchy-than-bold-text" class="anchor" href="#an-h4-tag-provides-better-visual-hierarchy-than-bold-text" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>An h4 tag provides better visual hierarchy than bold text.</h4>
+
+<p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+<h4>
+<a id="also-a-small-header" class="anchor" href="#also-a-small-header" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Also a small header</h4>
+
+<p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+<h2>
+<a id="other-text-elements" class="anchor" href="#other-text-elements" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Other text elements</h2>
+
+<p>These other text elements have styling available:</p>
+
+<ul>
+<li>Unordered lists</li>
+<li>Have regular bullets
+
+<ul>
+<li>You can also nest bullets</li>
+<li>Bullets lists should have more than one entry.</li>
+</ul>
+</li>
+<li><p>Pretty standard</p></li>
+</ul>
+
+<ol>
+<li>Ordered lists</li>
+<li>Use regular ol' western-style numbering.</li>
+<li>Should be used only when a list truly has order.</li>
+</ol>
+
+<hr>
+
+<p>Horizontal rules are available. We suggest using them sparingly to reduce clutter.
+Do not combine  horizontal rules with heading tags; some already used line styles for visual hierarchy.</p>
+
+<h2>
+<a id="displaying-code" class="anchor" href="#displaying-code" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Displaying code</h2>
+
+<p>You can use inline <code>code</code> Markdown syntax (with the backticks).</p>
+
+<p>Or you can display blocks of code like so:</p>
+
+<div class="highlight highlight-source-css"><pre><span class="pl-ent">body</span> {
+    <span class="pl-c1"><span class="pl-c1">background</span></span>: <span class="pl-c1">#fff</span>;
+}</pre></div>
+
+<h2>
+<a id="tables" class="anchor" href="#tables" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Tables</h2>
+
+<table>
+<thead>
+<tr>
+<th>You can</th>
+<th>use headers</th>
+<th align="right">on tables</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Left-aligned</td>
+<td>Unless a #</td>
+<td align="right">456</td>
+</tr>
+<tr>
+<td>Text value</td>
+<td>More text</td>
+<td align="right">$0.00</td>
+</tr>
+</tbody>
+</table>
+
+<h2>
+<a id="notes" class="anchor" href="#notes" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Notes</h2>
+
+<p>Use notes sparingly. They are brightly colored blocks designed to highlight "don't-miss-it" information.</p>
+
+<p>We have three different versions of notes currently styled:</p>
+
+<ul>
+<li>
+<code>&gt;note</code> (default styling)</li>
+<li><code>&gt;note.warning</code></li>
+<li><code>&gt;note.error</code></li>
+</ul>
+
+<p>Respectively, those look like:</p>
+
+<p><img src="media/notes.png" alt="Note patterns"></p>
+
+<h3>
+<a id="how-they-work" class="anchor" href="#how-they-work" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>How they work</h3>
+
+<p>You precede a single line of Markdown with the <code>&gt;note.*</code> syntax, like so:</p>
+
+<pre><code>&gt;note.warning Hello.  Yes.  I am a warning note that has been automagically created. My text may wrap to more than one line when the Markdown is parsed, but I must include all my information within a single (sometimes very long line) in the Markdown itself.
+</code></pre>
+
+<p>No closing tag is needed. If you try to "wrap" this custom syntax around multiple lines, <strong>it will not work!</strong></p>
+
+<p>But how do the titles ("Note", "Warning", "Error") get inserted into the note output? The custom Markdown tag actually does a lot
+more than you might think. By using <code>&gt;note.warning</code>, you are creating a <code>div</code> with class <code>.note--warning</code>, and adding to that <code>div</code> a
+title <code>"Warning"</code>.</p>
+
+<p>If you were to do <code>&gt;note.pineapple</code>, you would get a <code>div</code> with class <code>.note--pineapple</code>, and a title of "Pineapple". Because we have not explicitly styled <code>.note--pineapple</code>, the styling would simply match the default note styling.</p>
+
+<p>File an issue if you really need a custom note class to be styled to not look "default". For the most part, though, you should
+be using the types provided so that the documentation doesn't turn into a smorgasbord of color.</p>
+
+<h2>
+<a id="images" class="anchor" href="#images" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Images</h2>
+
+<p>Images (like the one above) are styled to be fluid; that is, they  scale proportionally and never display larger
+than the element containing the documentation article. Currently, that containing element spans up to 875px wide at its
+largest, so that should probably be the largest image size you use.</p>
+
+<p>P.S. If your computer automatically inserts "smart quotes" into content, consider disabling this feature when writing markup or code samples.</p>
+
+      <footer class="site-footer">
+        <span class="site-footer-owner"><a href="https://github.com/jasonnian1978/MicrosoftEdge-Documentation">Microsoftedge-documentation</a> is maintained by <a href="https://github.com/jasonnian1978">jasonnian1978</a>.</span>
+
+        <span class="site-footer-credits">This page was generated by <a href="https://pages.github.com">GitHub Pages</a> using the <a href="https://github.com/jasonlong/cayman-theme">Cayman theme</a> by <a href="https://twitter.com/jasonlong">Jason Long</a>.</span>
+      </footer>
+
+    </section>
+
+  
+  </body>
+</html>
